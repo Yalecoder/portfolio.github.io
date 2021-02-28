@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    scroll-behavior: smooth;
+    transition: 0.5s;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.open{
+    display: none;
+}
+
+@media(max-width: 800px)
+{
+    .open{
+        display: block;
+        width: 100%;
+    }
+
+    .open img{
+        float: right;
+        width: 35px;
+    }
+
+    .menu{
+        display: none;
+    }
+}
+
+body{
+    transition-delay: 0.3s;
+    transition-duration: 0.5s;
+}
+
+header {
+    height: 562px;
+    background-image: url(../img/pexels-fauxels-3183197.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    height: 80px;
+    align-items: center;
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+}
+
+.logo a {
+    font-size: x-large;
+    color: grey;
+}
+
+.logo span {
+    color: #2bb0ff;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu ul {
+    float: right;
+    display: flex;
+}
+
+.menu ul li {
+    font-size: larger;
+    padding: 5px;
+    margin: 9px;
+    transition: 0.3s ease;
+}
+
+.menu ul li:hover {
+    opacity: 0.6;
+    border-bottom: 1px solid grey;
+    transition: 0.3s ease;
+}
+
+.active {
+    opacity: 0.6;
+    border-bottom: 1px solid grey;
+    transition: 0.3s ease;
+}
+
+.headertext {
+    width: 90%;
+    height: 482px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.headtxt:nth-child(1) {
+    width: 35%;
+}
+
+.headtxt:nth-child(2) {
+    width: 60%;
+}
+
+.headtxt {
+    transition: 0.5s;
+    width: 50%;
+}
+
+.welcome button {
+    border-radius: 4px;
+    font-size: large;
+    transition: 0.5s;
+    border: 1px solid #2bb0ff;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    margin: 11px auto;
+    width: 100px;
+}
+
+.welcome p {
+    margin: 7px auto;
+}
+
+.welcome button:hover {
+    transition: 0.5s;
+    color: white;
+    border: 1px solid rgb(41, 128, 185);
+    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+}
+
+.count {
+    width: 120px;
+    float: right;
+}
+
+.count h1 {
+    border-right: 3px dashed #2bb0ff;
+    width: 70px;
+}
+
+.count p {
+    opacity: 0.6;
+}
+
+.headerservice {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.service {
+    box-shadow: rgb(0 0 0 / 6%) 0px 2px 4px 0px inset;
+    background: white;
+    display: flex;
+    border-radius: 3px;
+}
+
+.serv {
+    border-radius: 3px;
+    transition: 0.5s;
+    padding: 5px;
+    width: 30%;
+    background-color: white;
+}
+
+.serv:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+    transform: translateY(-25px);
+    background: whitesmoke;
+}
+
+.serv img {
+    height: 50px;
+}
+
+.serv p {
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+/*-----Conteudo----*/
+
+.us {
+    width: 900px;
+    margin: 190px auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.history {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.his {
+    width: 50%;
+}
+
+.his:nth-child(1)
+{
+    background: url(../img/blob.svg);
+    background-size: 109%;
+    background-repeat: no-repeat;
+}
+
+.hi{
+    height: 385px;
+    width: 100%;
+    position: relative;
+}
+
+.his img {
+    transition: 0.3s;
+    position: absolute;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    width: 370px;
+    height: 365px;
+    margin: auto;
+    border-radius: 9px;
+}
+
+
+.his img:hover{
+    box-shadow: 0px 0px 6px 1px;
+    transition: 0.3s;
+    transform: none;
+    transform: rotate( 0deg);
+    z-index: 1;
+}
+
+.his button {
+    transition: 0.5s;
+    border: 1px solid aqua;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    margin: 11px auto;
+    width: 100px;
+}
+
+.his p {
+    opacity: 0.6;
+}
+
+.respe {
+    margin: 20px auto;
+    display: flex;
+}
+
+.res {
+    display: flex;
+    width: 300px;
+}
+
+.number img {
+    width: 45px;
+}
+
+.text {
+    margin: 15px;
+}
+
+.services {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.servi {
+    align-items: center;
+    margin: 55px auto;
+    display: flex;
+}
+
+.card {
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 5px;
+    text-align: center;
+    width: 50%;
+    padding: 9px;
+    border-radius: 4px;
+}
+
+.card:hover {
+    transition: 0.3s;
+    transform: translateY(-20px);
+    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+    color: whitesmoke;
+}
+
+.card:hover a {
+    color: whitesmoke;
+}
+
+.card:hover img {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.card img {
+    margin: 11px;
+    width: 70px;
+    height: 70px;
+}
+
+.card h3 {
+    margin: 22px auto;
+}
+
+.card p {
+    width: 250px;
+    margin: 11px auto;
+    text-align: justify;
+}
+
+.card button {
+    margin: 20px auto;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    width: 100px;
+}
+
+.card button a {
+    transition: 0.3s;
+    padding: 5px;
+    border-bottom: 1px solid aqua;
+    color: grey;
+}
+
+.card button a:hover {
+    opacity: 1;
+    transition: 0.3s;
+    border-bottom: 1px solid grey;
+    ;
+}
+
+.portfolio {
+    width: 90%;
+    margin: 80px auto;
+}
+
+.work {
+    transition: 0.3s;
+    padding: 30px;
+    width: 981px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+.work img {
+    width: 335px;
+}
+
+.detail h1 {
+    margin: 20px;
+}
+
+.detail span {
+    margin: 20px;
+}
+
+.detail p {
+    margin: 20px;
+}
+
+.sta {
+    display: flex;
+}
+
+.st {
+    transform: translate(-13px, 9px);
+}
+
+.st p {
+    width: 300px;
+    margin: 0px;
+}
+
+.sta .stlogo {
+    border-radius: 54px;
+    width: 20px;
+    height: 20px;
+    margin: 22px;
+    transform: translateY(-23px);
+    padding: 10px;
+    box-shadow: 0px 0px 0px 1px;
+}
+
+.st img {
+    width: 18px;
+}
+
+.st button {
+    transition: 0.5s;
+    border: 1px solid aqua;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    margin: 11px auto;
+    width: 100px;
+}
+
+.space {
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/clay-banks-u27Rrbs9Dwc-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.spc {
+    color: whitesmoke;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.spac {
+    width: 90%;
+    margin: auto;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.sp {
+    margin: auto;
+    width: 250px;
+    text-align: center;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+}
+
+.contacto {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contact {
+    color: white;
+    margin: 30px;
+}
+
+.contact img {
+    width: 40px;
+}
+
+.end {
+    color: whitesmoke;
+    width: 95%;
+    margin: 11px auto;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ed img {
+    width: 180px;
+    margin: 9px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.mini-menu ul {
+    justify-content: center;
+    display: flex;
+}
+
+.mini-menu ul li {
+    margin: 10px;
+}
+
+.redes ul {
+    justify-content: center;
+    display: flex;
+}
+
+.redes ul li {
+    margin: 10px;
+    padding: 7px;
+    border-radius: 30px;
+}
+
+.copy p {
+    color: grey;
+    text-align: center;
+    filter: brightness(0.5);
+}
+
+
+@media(max-width: 900px)
+{
+    .us {
+        width: 100%;
+    }
+
+    .history {
+        display: inline-block;
+    }
+
+    .respe{
+        display: grid;
+        gap: 10;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    .work {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .portfolio{
+        width: 100%;
+    }
+
+    .his {
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+
+    .hi{
+        width: 25%;
+    }
+}
+
+@media(max-width: 1024px)
+{
+    .headerservice {
+        width: 100%;
+    }
+
+    .servi{
+        display: grid;
+        gap: 10;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+
+    .card{
+        width: 350px;
+        margin:20px auto;
+    }
+
+    .service {
+        display: grid;
+        gap: 10;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+
+    .serv {
+        border-radius: 3px;
+        transition: 0.5s;
+        padding: 5px;
+        width: 300px;
+        margin: auto;
+        background-color: white;
+    }
+
+    .hi{
+        width: 25%;
+    }
+
+    .work{
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width: 414px)
+{
+    .contacto{
+        display: grid;
+    }
+
+    .headtxt:nth-child(1) {
+        width: 100%;
+    }
+
+    .headtxt:nth-child(2) {
+        width: 60%;
+        display: none;
+    }
+
+
+    .work {
+        display: grid;
+    }
+
+    .his {
+        text-align: center;
+        width: 85%;
+        margin: auto;
+    }
+
+    .hi{
+        transform: translate(-48px, 0px);
+    }
+
+    .his img{
+        width: 329px;
+    }
+
+    footer{
+        height: 100vh;
+    }
+
+    .sp{
+        margin: 13px auto;
+    }
+
+    .respect{
+        display: none;
+    }
+}
+
+@media(max-width: 765px)
+{
+
+    .service {
+        display: grid;
+        gap: 10;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+    
+    .history {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hi{
+        width: 25%;
+    }
+
+    .respe{
+        justify-content: center;
+        margin: auto;
+        display: grid;
+        margin: 40px; 
+    }
+
+    .spac{
+        display: grid;
+        gap: 10;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+
+    .space {
+        height: 100vh;
+    }
+
+    
+
+    .spc {
+        height: 100vh;
+        color: whitesmoke;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .work {
+        display: grid;
+        margin: 90px auto;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .work img{
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .sta img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .portfolio{
+        width: 100%;
+    }
+}
