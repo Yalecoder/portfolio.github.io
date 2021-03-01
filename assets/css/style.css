@@ -316,6 +316,21 @@ nav a {
     animation: content 0.3s;
 }
 
+.content ul{
+    text-align: start;
+}
+
+.content ul li{
+    margin: 5px;
+}
+
+.content ul img{
+    transform: translateY(1px);
+    width: 28px;
+    height: 15px;
+    margin: 0px;
+}
+
 @keyframes content{
     to{
         opacity: 0.7;
@@ -831,5 +846,14 @@ footer {
 
     .his img {
         width: 352%;
+    }
+}
+
+@media(max-width: 480px)
+{
+    .hi {
+        text-align: center;
+        width: 20%;
+        margin-left: -81px;
     }
 }
