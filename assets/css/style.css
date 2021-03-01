@@ -669,7 +669,7 @@ footer {
         transform: translate(-48px, 0px);
     }
     .his img {
-        width: 350px;
+        width: 40vh;
     }
     footer {
         height: 100vh;
@@ -712,7 +712,7 @@ footer {
 @media(max-width: 769px) {
 
     .headtxt:nth-child(1) {
-        width: 60%;
+        width: 100%;
     }
 
     .card {
