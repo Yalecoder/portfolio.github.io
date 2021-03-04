@@ -661,9 +661,31 @@ nav a {
     .his img {
         width: 40vh;
     }
-    footer {
-        height: 100vh;
+    .cc{
+        width: 100%;
     }
+
+    .cc ul{
+        float: none;
+        justify-content: center;
+    }
+
+    .cored {
+        color: whitesmoke;
+        width: 100%;
+        height: 106px;
+        background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+    }
+
+    .cr {
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        width: 95%;
+        margin: auto;
+        display: block;
+    }
+
     .sp {
         margin: 13px auto;
     }
@@ -696,6 +718,62 @@ nav a {
 
     .spc{
         height: 765px;
+    }
+}
+
+@media(min-width: 2000px)
+{
+    nav{
+        width: 80%;
+    }
+
+    .us{
+        width: 1000px;
+    }
+
+    .headerservice{
+        width: 1000px;
+    }
+
+    header{
+        height: 800px;
+    }
+
+    .header{
+        height: 802px;
+    }
+
+    .headertext{
+        width: 80%;
+        height: 660px;
+    }
+
+    .services{
+        width: 70%;
+    }
+
+    .portfolio{
+        width: 70%;
+    }
+
+    .personal{
+        width: 70%;
+    }
+}
+
+@media(min-width: 1500px)
+{
+    .servi{
+        display: flex;
+    }
+
+    .card{
+        margin: auto;
+        width: 315px;
+    }
+
+    .team{
+        display: flex;
     }
 }
 
