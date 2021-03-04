@@ -527,67 +527,41 @@ nav a {
     height: 100%;
 }
 
-footer {
-    display: inline-block;
+.cored{
+    color: whitesmoke;
     width: 100%;
+    height: 80px;
     background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
 }
 
-.contacto {
-    width: 90%;
+.cr{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 95%;
+    height: 100%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
-    text-align: center;
 }
 
-.contact {
-    color: white;
-    margin: 30px;
-}
-
-.contact img {
-    width: 40px;
-}
-
-.end {
-    color: whitesmoke;
-    width: 95%;
-    margin: 11px auto;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.ed img {
-    width: 180px;
-    margin: 9px;
-    filter: drop-shadow(2px 4px 6px black);
-}
-
-.mini-menu ul {
-    justify-content: center;
+.cr ul{
     display: flex;
 }
 
-.mini-menu ul li {
+.cr ul{
+    float: right;
+}
+
+.cr ul li{
     margin: 10px;
 }
 
-.redes ul {
-    justify-content: center;
-    display: flex;
+.cr ul img{
+    width: 30px;
 }
 
-.redes ul li {
-    margin: 10px;
-    padding: 7px;
-    border-radius: 30px;
-}
-
-.copy p {
-    color: grey;
-    text-align: center;
-    filter: brightness(0.5);
+.cc{
+    width: 50%;
 }
 
 @media(max-width: 900px) {
@@ -619,6 +593,7 @@ footer {
     .hi {
         width: 25%;
     }
+
 }
 
 @media(max-width: 1024px) {
