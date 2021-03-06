@@ -531,13 +531,14 @@ nav a {
     display: flex;
     width: 90%;
     height: 400px;
-    margin: 50px auto;
+    margin: 150px auto;
     align-items: center;
 }
 
 .contact{
     display: flex;
     align-items: center;
+    margin: auto;
 }
 
 .contac{
@@ -554,7 +555,7 @@ nav a {
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 6px;
     border: none;
-    outline: none;
+    outline-color: aqua;
     padding: 5px;
     height: 25px;
     margin: 7px auto;
@@ -640,13 +641,13 @@ nav a {
 }
 
 .foot{
-    width: 95%;
+    width: 100%;
     margin: auto;
     display: flex;
 }
 
 .foo{
-    margin: 40px;
+    margin: 32px;
     width: 25%;
 }
 
@@ -664,9 +665,10 @@ nav a {
 .foo button{
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
     transition: 0.6s;
+    color: white;
     border: none;
-    background: transparent;
     outline: none;
     width: 100px;
     padding: 5px;
@@ -675,14 +677,36 @@ nav a {
     border-radius: 6px;
 }
 
-.foo button:hover{
-    transition: 0.6s;
-    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+.footer{
+    background-color: #3f3b3b;
+}
+
+.foote{
+    color: white;
+}
+
+.terms{
+    border-top: 1px solid whitesmoke;
+    color: white;
+}
+
+.terms a{
     color: white;
 }
 
 .term{
+    width: 95%;
+    margin: auto;
+    font-weight: 100;
     display: flex;
+}
+
+.ter h4, a{
+    font-weight: 100;
+}
+
+.condicoes{
+    float: right;
 }
 
 .ter{
@@ -849,6 +873,22 @@ nav a {
 
 @media(min-width: 2000px)
 {
+    .contacti{
+        width: 50%;
+    }
+
+    .foot {
+        width: 80%;
+    }
+
+    .cr {
+        width: 77%;
+    }
+
+    .term {
+        width: 77%;
+    }
+
     nav{
         width: 80%;
     }
