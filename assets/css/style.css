@@ -527,6 +527,81 @@ nav a {
     height: 100%;
 }
 
+.contacti{
+    display: flex;
+    width: 90%;
+    height: 400px;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.contac{
+    width: 50%;
+}
+
+.cont form{
+    display: grid;
+    width: 80%;
+    margin: auto;
+}
+
+.cont input{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    height: 25px;
+    margin: 7px auto;
+    width: 100%;
+}
+
+.cont textarea{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    height: 100px;
+    padding: 5px;
+    margin: 7px auto;
+    width: 100%;
+}
+
+.cont img{
+    transform: translateY(15px);
+    width: 31px;
+    margin: 4px auto;
+}
+
+.cont ul li{
+    margin: 4px auto;
+}
+
+.cont button{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: 0.6s;
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100px;
+    padding: 5px;
+    margin: 5px auto;
+    float: right;
+    border-radius: 6px;
+}
+
+.cont button:hover{
+    transition: 0.6s;
+    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+    color: white;
+}
+
 .cored{
     color: whitesmoke;
     width: 100%;
@@ -562,6 +637,57 @@ nav a {
 
 .cc{
     width: 50%;
+}
+
+.foot{
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+.foo{
+    margin: 40px;
+    width: 25%;
+}
+
+.foo input{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    height: 25px;
+    margin: 7px auto;
+    width: 100%;
+}
+
+.foo button{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: 0.6s;
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100px;
+    padding: 5px;
+    margin: 5px auto;
+    float: right;
+    border-radius: 6px;
+}
+
+.foo button:hover{
+    transition: 0.6s;
+    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+    color: white;
+}
+
+.term{
+    display: flex;
+}
+
+.ter{
+    width: 50%;
+    margin: 30px auto;
 }
 
 @media(max-width: 900px) {
