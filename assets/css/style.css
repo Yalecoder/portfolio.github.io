@@ -714,6 +714,22 @@ nav a {
     margin: 30px auto;
 }
 
+@media (max-width: 320px)
+{
+    .servi {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .spac {
+        grid-template-columns: repeat(auto-fill, minmax(273px, 1fr));
+    }
+
+    .his img {
+        left: 18%;
+        width: 100%;
+    }
+}
+
 @media (max-width: 850px) {
     .contact {
         display: grid;
@@ -875,7 +891,7 @@ nav a {
     }
     .his img {
         left: 90px;
-        width: 41vh;
+        width: 74%;
     }
 
     
@@ -1006,7 +1022,7 @@ nav a {
     .servi {
         display: grid;
         gap: 10;
-        grid-template-columns: repeat(auto-fill, minmax(331px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     }
     .work:hover .detail {
         background-color: aliceblue;
@@ -1043,7 +1059,7 @@ nav a {
     .spac {
         display: grid;
         gap: 10;
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     }
     .space {
         height: 765px;
