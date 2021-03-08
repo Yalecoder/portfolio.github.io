@@ -9,7 +9,7 @@
     font-family: 'Oswald', sans-serif;
 }
 
-.menu-open{
+.menu-open {
     height: 95px;
     width: 100%;
 }
@@ -234,7 +234,7 @@ nav a {
     transition: 0.3s;
     position: absolute;
     box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
-    width: 370px;
+    width: 80%;
     height: 365px;
     margin: auto;
     border-radius: 9px;
@@ -246,6 +246,14 @@ nav a {
     transform: none;
     transform: rotate( 0deg);
     z-index: 1;
+}
+
+.hi img:nth-child(1) {
+    transform: rotate(18deg);
+}
+
+.hi img:nth-child(2) {
+    transform: rotate( 42deg);
 }
 
 .his button {
@@ -288,7 +296,7 @@ nav a {
 .servi {
     display: grid;
     gap: 10;
-     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     align-items: center;
     margin: 55px auto;
 }
@@ -301,7 +309,7 @@ nav a {
     text-align: center;
 }
 
-.car{
+.car {
     margin: 5px;
     padding: 9px;
     border-radius: 4px;
@@ -311,32 +319,31 @@ nav a {
     height: 95%;
 }
 
-.content{
+.content {
     display: none;
     animation: content 0.3s;
 }
 
-.content ul{
+.content ul {
     text-align: start;
 }
 
-.content ul li{
+.content ul li {
     margin: 5px;
 }
 
-.content ul img{
+.content ul img {
     transform: translateY(1px);
     width: 28px;
     height: 15px;
     margin: 0px;
 }
 
-@keyframes content{
-    to{
+@keyframes content {
+    to {
         opacity: 0.7;
     }
-
-    from{
+    from {
         opacity: 1;
     }
 }
@@ -348,9 +355,7 @@ nav a {
     color: whitesmoke;
 }
 
-.active
-
-.card:hover a {
+.active .card:hover a {
     color: whitesmoke;
 }
 
@@ -494,19 +499,19 @@ nav a {
     text-align: center;
 }
 
-.personal{
+.personal {
     width: 90%;
     margin: 190px auto;
 }
 
-.team{
+.team {
     margin: 50px auto;
     display: grid;
     column-gap: 10;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-.tea{
+.tea {
     margin: 10px auto;
     width: 250px;
     height: 300px;
@@ -517,17 +522,17 @@ nav a {
     border-radius: 5px;
 }
 
-.tt{
+.tt {
     margin: 20px auto;
     text-align: center;
 }
 
-.tea img{
+.tea img {
     width: 100%;
     height: 100%;
 }
 
-.contacti{
+.contacti {
     display: flex;
     width: 90%;
     height: 400px;
@@ -535,23 +540,23 @@ nav a {
     align-items: center;
 }
 
-.contact{
+.contact {
     display: flex;
     align-items: center;
     margin: auto;
 }
 
-.contac{
+.contac {
     width: 50%;
 }
 
-.cont form{
+.cont form {
     display: grid;
     width: 80%;
     margin: auto;
 }
 
-.cont input{
+.cont input {
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 6px;
     border: none;
@@ -562,28 +567,29 @@ nav a {
     width: 100%;
 }
 
-.cont textarea{
+.cont textarea {
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 6px;
     border: none;
-    outline: none;
+    border: none;
+    outline-color: aqua;
     height: 100px;
     padding: 5px;
     margin: 7px auto;
     width: 100%;
 }
 
-.cont img{
+.cont img {
     transform: translateY(15px);
     width: 31px;
     margin: 4px auto;
 }
 
-.cont ul li{
+.cont ul li {
     margin: 4px auto;
 }
 
-.cont button{
+.cont button {
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     transition: 0.6s;
@@ -597,20 +603,20 @@ nav a {
     border-radius: 6px;
 }
 
-.cont button:hover{
+.cont button:hover {
     transition: 0.6s;
     background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
     color: white;
 }
 
-.cored{
+.cored {
     color: whitesmoke;
     width: 100%;
     height: 80px;
-    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+    background: #0099ff;
 }
 
-.cr{
+.cr {
     align-items: center;
     align-self: center;
     align-content: center;
@@ -620,38 +626,38 @@ nav a {
     display: flex;
 }
 
-.cr ul{
+.cr ul {
     display: flex;
 }
 
-.cr ul{
+.cr ul {
     float: right;
 }
 
-.cr ul li{
+.cr ul li {
     margin: 10px;
 }
 
-.cr ul img{
+.cr ul img {
     width: 30px;
 }
 
-.cc{
+.cc {
     width: 50%;
 }
 
-.foot{
+.foot {
     width: 100%;
     margin: auto;
     display: flex;
 }
 
-.foo{
+.foo {
     margin: 32px;
     width: 25%;
 }
 
-.foo input{
+.foo input {
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 6px;
     border: none;
@@ -662,10 +668,10 @@ nav a {
     width: 100%;
 }
 
-.foo button{
+.foo button {
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+    background: darkslategrey;
     transition: 0.6s;
     color: white;
     border: none;
@@ -677,41 +683,88 @@ nav a {
     border-radius: 6px;
 }
 
-.footer{
-    background-color: #3f3b3b;
+.footer {
+    background: #0099ff;
 }
 
-.foote{
+.foote {
     color: white;
 }
 
-.terms{
-    border-top: 1px solid whitesmoke;
+.terms {
     color: white;
 }
 
-.terms a{
+.terms a {
     color: white;
 }
 
-.term{
+.term {
     width: 95%;
     margin: auto;
     font-weight: 100;
-    display: flex;
+    display: grid;
 }
 
-.ter h4, a{
+.ter h4, a {
     font-weight: 100;
 }
 
-.condicoes{
-    float: right;
+.ter {
+    margin: 30px auto;
 }
 
-.ter{
-    width: 50%;
-    margin: 30px auto;
+@media (max-width: 850px) {
+    .contact {
+        display: grid;
+        align-items: center;
+        margin: auto;
+    }
+    .contac {
+        width: 100%;
+    }
+    .cont ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        margin: 40px auto;
+    }
+    .contacti {
+        display: flex;
+        width: 90%;
+        margin: 150px auto;
+        align-items: center;
+        height: max-content;
+    }
+    .cr {
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        height: 100%;
+        justify-content: center;
+        margin: auto;
+        display: grid;
+    }
+    .cc {
+        width: 100%;
+    }
+    .cr ul {
+        float: none;
+        justify-content: center;
+    }
+    .foot {
+        width: 100%;
+        margin: auto;
+        display: grid;
+    }
+    
+    .foo {
+        margin: 32px;
+        width: 88%;
+        text-align: center;
+    }
+    .cored {
+        height: max-content;
+    }
 }
 
 @media(max-width: 900px) {
@@ -740,10 +793,23 @@ nav a {
         width: 60%;
         margin: auto;
     }
+
     .hi {
         width: 25%;
     }
 
+    .his img {
+        transition: 0.3s;
+        left: 72px;
+        position: absolute;
+        box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+        width: 66%;
+        height: 294px;
+        margin: -13px auto;
+        border-radius: 9px;
+    }
+
+    
 }
 
 @media(max-width: 1024px) {
@@ -773,7 +839,7 @@ nav a {
         background-color: white;
     }
     .hi {
-        width: 25%;
+        width: initial;
     }
     .work {
         width: 100%;
@@ -784,7 +850,6 @@ nav a {
     .headtxt:nth-child(1) {
         width: 100%;
     }
-
     .contacto {
         display: grid;
     }
@@ -809,24 +874,34 @@ nav a {
         transform: translate(-48px, 0px);
     }
     .his img {
-        width: 40vh;
-    }
-    .cc{
-        width: 100%;
+        left: 90px;
+        width: 41vh;
     }
 
-    .cc ul{
+    
+    .cc {
+        text-align: center;
+        width: 100%;
+    }
+    .cc ul {
         float: none;
         justify-content: center;
     }
-
     .cored {
         color: whitesmoke;
         width: 100%;
-        height: 106px;
-        background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+        height: max-content;
     }
-
+    .foot {
+        width: 100%;
+        margin: auto;
+        display: grid;
+    }
+    .foo {
+        margin: 23px;
+        width: 90%;
+        text-align: center;
+    }
     .cr {
         align-items: center;
         align-self: center;
@@ -835,145 +910,115 @@ nav a {
         margin: auto;
         display: block;
     }
-
     .sp {
         margin: 13px auto;
     }
     .respect {
         display: none;
     }
-
     .card {
         width: 85%;
         margin: 20px auto;
     }
-
-    .work:hover .detail{
+    .work:hover .detail {
         background-color: aliceblue;
     }
-
-    .work .detail{
+    .work .detail {
         transform: translateY(-20px);
         padding: 17px;
     }
-
-    .work .detail:nth-child(1){
+    .work .detail:nth-child(1) {
         transform: translateY(20px);
         padding: 17px;
     }
-
     .space {
         height: 765px;
     }
-
-    .spc{
+    .spc {
         height: 765px;
     }
 }
 
-@media(min-width: 2000px)
-{
-    .contacti{
+@media(min-width: 2000px) {
+    .contacti {
         width: 50%;
     }
-
     .foot {
         width: 80%;
     }
-
     .cr {
         width: 77%;
     }
-
     .term {
         width: 77%;
     }
-
-    nav{
+    nav {
         width: 80%;
     }
-
-    .us{
+    .us {
         width: 1000px;
     }
-
-    .headerservice{
+    .headerservice {
         width: 1000px;
     }
-
-    header{
+    header {
         height: 800px;
     }
-
-    .header{
+    .header {
         height: 802px;
     }
-
-    .headertext{
+    .headertext {
         width: 80%;
         height: 660px;
     }
-
-    .services{
+    .services {
         width: 70%;
     }
-
-    .portfolio{
+    .portfolio {
         width: 70%;
     }
-
-    .personal{
+    .personal {
         width: 70%;
     }
 }
 
-@media(min-width: 1500px)
-{
-    .servi{
+@media(min-width: 1500px) {
+    .servi {
         display: flex;
     }
-
-    .card{
+    .card {
         margin: auto;
         width: 315px;
     }
-
-    .team{
+    .team {
         display: flex;
     }
 }
 
 @media(max-width: 769px) {
-
     .headtxt:nth-child(1) {
         width: 100%;
     }
-
     .card {
         width: 290px;
         margin: 20px auto;
     }
-
     .servi {
         display: grid;
         gap: 10;
         grid-template-columns: repeat(auto-fill, minmax(331px, 1fr));
     }
-
-    .work:hover .detail{
+    .work:hover .detail {
         background-color: aliceblue;
     }
-
-    .work .detail{
+    .work .detail {
         transform: translateY(-20px);
         padding: 17px;
     }
-
-    .work .detail:nth-child(1){
+    .work .detail:nth-child(1) {
         transform: translateY(20px);
         padding: 17px;
     }
-
     .service {
         display: grid;
         gap: 10;
@@ -987,7 +1032,7 @@ nav a {
     }
     .hi {
         text-align: center;
-        width: 25%;
+        width: 100%;
     }
     .respe {
         justify-content: center;
@@ -1018,11 +1063,9 @@ nav a {
         width: 100%;
         margin: 20px auto;
     }
-
-    .sp{
+    .sp {
         margin: 15px auto;
     }
-
     .sta img {
         width: 20px;
         height: 20px;
@@ -1031,48 +1074,52 @@ nav a {
         width: 100%;
     }
 
-    .his{
+    .his h1{
+        text-align: start;
+    }
+
+    .his p{
         text-align: justify;
     }
 }
 
-
-@media(max-width: 375px)
-{
+@media(max-width: 375px) {
     .headtxt:nth-child(1) {
         width: 100%;
     }
-
     .work {
         display: block;
         width: 100%;
         padding: 0px;
     }
-
     .work .detail {
         width: 91%;
         transform: translateY(-26px);
         padding: 17px;
     }
-
     .st p {
-    width: fit-content;
+        width: fit-content;
     }
-
     footer {
         height: max-content;
     }
-
     .his img {
-        width: 352%;
+        position: relative;
+        left: 15%;
+    }
+
+    .his img:nth-child(1){
+        display: none;
+    }
+
+    .his img:nth-child(2){
+        display: none;
     }
 }
 
-@media(max-width: 480px)
-{
+@media(max-width: 480px) {
     .hi {
         text-align: center;
-        width: 20%;
-        margin-left: -81px;
+        width: 100%;
     }
 }
